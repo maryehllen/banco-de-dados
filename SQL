@@ -6,19 +6,19 @@ CREATE TABLE escola (
   bairro TEXT NOT NULL
 );
 -- insert some values
-    INSERT INTO escola VALUES ('Augusto', '2DS', '16', ' Governador Manoel Ribas' );
-INSERT INTO escola VALUES ('Maria Clara','2P', '17', 'Vila Cruzeiro' );
-INSERT INTO escola VALUES ('Maria Eduarda','2DS', '15', 'Costeira' );
-INSERT INTO escola VALUES ('Wesley   ',    '2P', '17', 'Vila nova' );
-INSERT INTO escola VALUES ('Jean ' , ' 2ADM', '17', 'Vila Guarani' );
-INSERT INTO escola VALUES ('Gabriely' ,       '2DS', '16', 'Araça' );
-INSERT INTO escola VALUES ('Gabriella ',     '2DS', '16', 'Nova Iguaçu' );
-INSERT INTO escola VALUES ('Luana', '3P', '18', 'Porto Seguro' );
-INSERT INTO escola VALUES ('Emanoel', '3ADM', '18', 'Porto Seguro' );
-INSERT INTO escola VALUES ('Maryehllen', '2DS', '17', 'Porto dos Padres' );
+    INSERT INTO escola VALUES ('Augusto', '2DS', 16, ' Governador Manoel Ribas' );
+INSERT INTO escola VALUES ('Maria Clara','2P', 17, 'Vila Cruzeiro' );
+INSERT INTO escola VALUES ('Maria Eduarda','2DS', 15, 'Costeira' );
+INSERT INTO escola VALUES ('Wesley   ',    '2P', 17, 'Vila nova' );
+INSERT INTO escola VALUES ('Jean ' , ' 2ADM', 17, 'Vila Guarani' );
+INSERT INTO escola VALUES ('Gabriely' ,       '2DS', 16, 'Araça' );
+INSERT INTO escola VALUES ('Gabriella ',     '2DS', 16, 'Nova Iguaçu' );
+INSERT INTO escola VALUES ('Luana', '3P', 18, 'Porto Seguro' );
+INSERT INTO escola VALUES ('Emanoel', '3ADM', 18, 'Porto Seguro' );
+INSERT INTO escola VALUES ('Maryehllen', '2DS', 17, 'Porto dos Padres' );
 -- fetch some values
 SELECT * FROM escola;
 SELECT * FROM escola WHERE turma = '2DS';
 SELECT * FROM escola WHERE nome = 'Jean';
-SELECT * FROM escola WHERE idade = '15';
-SELECT * FROM escola WHERE bairro = 'Porto Seguro'
+SELECT * FROM escola WHERE idade = 15;
+SELECT * FROM escola WHERE bairro = 'Porto Seguro';
